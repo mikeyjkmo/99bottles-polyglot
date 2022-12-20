@@ -1,21 +1,20 @@
 # Beer song
 
-99 Bottles of Beer is an algorithmic children's song which has just enough complexity to teach you deep truths about object oriented programming.
+99 Bottles of Beer is an algorithmic children's song which has just enough
+complexity to teach you deep truths about object oriented programming.
 
-Our goal is to produce the lyrics to that beloved classic, that field-trip favorite. You can find them @ [`dcarral/99bottles-polyglot/SONG_LYRICS.md`](https://github.com/dcarral/99bottles-polyglot/blob/master/SONG_LYRICS.md).
-
-## TypeScript setup
-
-Go through the setup instructions on exercism.io to install the necessary dependencies:
-
-http://exercism.io/languages/typescript
+Our goal is to produce the lyrics to that beloved classic, that field-trip
+favorite. You can find them @
+[`mikeyjkmo/99bottles-polyglot/SONG_LYRICS.md`](https://github.com/dcarral/99bottles-polyglot/blob/master/SONG_LYRICS.md).
 
 ## Requirements
+
+- Node 16
 
 Install assignment dependencies:
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 ## Making the test suite pass
@@ -23,5 +22,5 @@ $ yarn install
 Execute the tests with:
 
 ```bash
-$ yarn test
+$ npm test
 ```
