@@ -9,9 +9,8 @@
     "url": "https://github.com/exercism/xtypescript"
   },
   "scripts": {
-    "test": "tsc --noEmit -p . && jest --no-cache",
-    "lint": "tsc --noEmit -p . && tslint \"*.ts?(x)\"",
-    "lintci": "tslint \"*.ts?(x)\" --force"
+    "test": "jest --watch",
+    "lint": "tslint \"*.ts?(x)\""
   },
   "dependencies": {
     "jest": "^29.3.1",
