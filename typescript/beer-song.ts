@@ -20,5 +20,11 @@ export function verse(verseNumber: number) {
 }
 
 export function sing(startingVerse = 99, endingVerse = 0) {
-  return `Starting verse ${startingVerse}, ending version ${endingVerse}`
+  const output: string[] = []
+
+  for (let i = startingVerse; i >= endingVerse; i--) {
+    output.push(verse(i))
+  }
+
+  return output.join('\n')
 }
