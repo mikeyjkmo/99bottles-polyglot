@@ -9,7 +9,7 @@
     "url": "https://github.com/exercism/xtypescript"
   },
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "lint": "tslint \"*.ts?(x)\""
   },
   "dependencies": {
