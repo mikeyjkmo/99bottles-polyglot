@@ -5,6 +5,14 @@ export function verse(verseNumber: number) {
       `Take it down and pass it around, no more bottles of beer on the wall.\n`
     )
   }
+
+  if (verseNumber === 0) {
+    return (
+      `No more bottles of beer on the wall, no more bottles of beer.\n` +
+      `Go to the store and buy some more, 99 bottles of beer on the wall.\n`
+    )
+  }
+
   return (
     `${verseNumber} bottles of beer on the wall, ${verseNumber} bottles of beer.\n` +
     `Take one down and pass it around, ${verseNumber - 1} bottles of beer on the wall.\n`
